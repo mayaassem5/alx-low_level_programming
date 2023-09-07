@@ -13,7 +13,7 @@ int main(void)
 {
 	char x = 'h';
 	int y = 1;
-	int z = 20;
+	long int z = 20;
 	long long int c = 72839382933;
 	float b = 1.2;
 
