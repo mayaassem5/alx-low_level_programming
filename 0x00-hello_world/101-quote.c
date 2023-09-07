@@ -1,9 +1,7 @@
-#include <stdio.h>
 #include <unistd.h>
-#include <string.h>
 
 /**
- *main - write ""
+ *main - write ""and that piece of art is useful" - Dora Korpar, 2015-10-19"
  *
  *void: has nothing
  *
