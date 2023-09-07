@@ -13,15 +13,8 @@
 
 int main(void)
 {
-	char *message = "and that piece of art is useful\"- Dora Korpar, 2015-10-19";
-	ssize_t bytes_written = write(2, message, strlen(message));
+	char str1[] = "and that piece of art is useful\"- Dora Korpar, 2015-10-19\n";
 
-	write(2, message);
-
-	if (bytes_written == -1)
-	{
-		/* handle the error if write fails */
-	}
-
+	write(2, str1, 59);
 	return (1);
 }
