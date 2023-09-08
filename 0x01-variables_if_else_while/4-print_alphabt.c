@@ -11,7 +11,9 @@
 
 int main(void)
 {
-	for (char x = 'a'; x <= 'z'; x++)
+	char x;
+
+	for (x = 'a'; x <= 'z'; x++)
 	{
 		while (x != 'e' && x != 'q')
 		{
