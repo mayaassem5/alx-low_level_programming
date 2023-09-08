@@ -11,16 +11,16 @@
 
 int main(void)
 {
-	char x = 'A';
-	char z = 'a';
+	char x = 'a';
+	char z = 'A';
 
-	while (x <= 'Z')
+	while (x <= 'z')
 	{
 		putchar (x);
 		x++;
 	}
 
-	while (z <= 'z')
+	while (z <= 'Z')
 	{
 		putchar (z);
 		z++;
