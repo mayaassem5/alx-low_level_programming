@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int x;
+	int x = 0;
 
 	do {
 		putchar(x + '0');
