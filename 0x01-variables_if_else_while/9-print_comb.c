@@ -20,6 +20,7 @@ int main(void)
 		}
 		putchar(',');
 		putchar(' ');
+		x++;
 	} while (x < 10);
 
 	putchar('\n');
