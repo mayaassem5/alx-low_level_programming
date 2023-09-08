@@ -17,17 +17,24 @@ int main(void)
 	{
 		for (y = 1; y < 10; y++)
 		{
-			if (x != 0 || y != 1)
+			if (x == y || x > y)
 			{
-				putchar(',');
-				putchar(' ');
+				continue;
 			}
+			else
+			{
+				if (x != 0 || y != 1)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 
-			putchar(x + '0');
-			putchar(y + '0');
+				putchar(x + '0');
+				putchar(y + '0');
+			}
 		}
 	}
 
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
