@@ -27,7 +27,7 @@ int main(void)
 
 				if (x == 7 && y == 8 && z == 9)
 				{
-					continue;
+					break;
 				}
 				else
 				{
