@@ -14,27 +14,28 @@ void jack_bauer(void)
 {
 	int one, two, three, four;
 
-	for (one = 0; one <= 2; one++)
+	if (one != 2 && two != 3)
 	{
-		if (one == 2 && two == 3 && three == 5 && four == 9)
+		for (one = 0; one <= 2; one++)
 		{
-			break;
-		}
-
-		for (two = 0; two <= 9; two++)
-		{
-			for (three = 0; three <= 5; three++)
+			for (two = 0; two <= 9; two++)
 			{
-				for (four = 0; four <= 9; four++)
+				for (three = 0; three <= 5; three++)
 				{
-					_putchar(one + '0');
-					_putchar(two + '0');
-					_putchar(':');
-					_putchar(three + '0');
-					_putchar(four + '0');
-					_putchar('\n');
+					for (four = 0; four <= 9; four++)
+					{
+						_putchar(one + '0');
+						_putchar(two + '0');
+						_putchar(':');
+						_putchar(three + '0');
+						_putchar(four + '0');
+						_putchar('\n');
+					}
 				}
 			}
 		}
+	} else
+	{
+		break;
 	}
 }
