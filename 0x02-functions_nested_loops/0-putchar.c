@@ -16,7 +16,7 @@ int main(void)
 	char str[]={95, 112, 117, 116, 99, 104, 97, 114};
 	int loop;
 
-	for(loop = 0; loop <= strlen(str); loop ++)
+	for(loop = 0; loop <= 8; loop ++)
 	{
 		_putchar(str[loop]);
 	}
