@@ -11,13 +11,17 @@
 
 int main(void)
 {
+	print_alphabet();
+	return (0);
+}
+
+void print_alphabet(void)
+{
 	char alpha;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		print_alphabet(alpha);
+		_putchar(alpha);
 	}
-
-	print_alphabet('\n');
-	return (0);
+	_putchar('\n');
 }
