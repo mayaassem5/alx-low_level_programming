@@ -13,8 +13,13 @@
 
 int main(void)
 {
-	char c[]="_putchar"
-	_putchar(c);
+	char str[]={95, 112, 117, 116, 99, 104, 97, 114};
+
+	for(int loop = 0; loop <= strlen(str); loop ++)
+	{
+		_putchar(str[loop]);
+	}
+
 	_putchar('\n');
 	return (0);
 }
