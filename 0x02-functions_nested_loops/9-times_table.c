@@ -29,7 +29,10 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
+				if (a < 10)
+				{
+					_putchar('\n');
+				}
 			}
 		}
 		_putchar('\n');
