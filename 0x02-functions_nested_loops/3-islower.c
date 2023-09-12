@@ -12,15 +12,15 @@
 
 int _islower(int c)
 {
-	int r;
 
 	if (islower(c))
 	{
-		_putchar(r + '0');
+		_putchar(1 + '0');
 	}else
 	{
-		_putchar(r + '0');
-		_putchar('\n');
-		return (0);
+		_putchar(0 + '0');
 	}
+
+	_putchar('\n');
+	return (0);
 }
