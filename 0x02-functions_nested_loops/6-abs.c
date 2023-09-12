@@ -6,14 +6,14 @@
 /**
  *_abs - prints an output
  *
- *@a: has value
+ *@int: has value
  *
  *Return: 0 always
 */
 
-int _abs(int a)
+int _abs(int)
 {
-	int b = abs(a);
+	int b = abs(int);
 
 	_putchar(b);
 
