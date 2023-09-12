@@ -3,9 +3,9 @@
 #include <ctype.h>
 
 /**
- *print_alphabet - prints an output
+ *_islower - prints an output
  *
- *void: has nothing
+ *@c: has value
  *
  *Return: 0 always
 */
@@ -16,10 +16,9 @@ int _islower(int c)
 	if (islower(c))
 	{
 		return (1);
-	}else
-	{
-		return (0);
 	}
 
 	_putchar('\n');
+	return (0);
+
 }
