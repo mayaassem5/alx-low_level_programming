@@ -14,15 +14,15 @@ void jack_bauer(void)
 {
 	int one, two, three, four;
 
-	if (one != 2 && two != 3)
+	for (one = 0; one <= 2; one++)
 	{
-		for (one = 0; one <= 2; one++)
+		for (two = 0; two <= 9; two++)
 		{
-			for (two = 0; two <= 9; two++)
+			for (three = 0; three <= 5; three++)
 			{
-				for (three = 0; three <= 5; three++)
+				for (four = 0; four <= 9; four++)
 				{
-					for (four = 0; four <= 9; four++)
+					if (one != 2 && two != 3 && three != 5 && four != 9)
 					{
 						_putchar(one + '0');
 						_putchar(two + '0');
@@ -34,8 +34,6 @@ void jack_bauer(void)
 				}
 			}
 		}
-	} else
-	{
-		return;
 	}
+	
 }
