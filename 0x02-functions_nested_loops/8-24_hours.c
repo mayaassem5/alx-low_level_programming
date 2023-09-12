@@ -32,7 +32,7 @@ void jack_bauer(void)
 			}
 		}
 
-		if (one == 2 || two == 3 || three == 5 || four == 9)
+		if (one == 2 && two == 3 && three == 5 && four == 9)
 		{
 			break;
 		}
