@@ -31,7 +31,7 @@ void jack_bauer(void)
 
 					if (one == 2 && two == 3 && three == 5 && four == 9)
 					{
-						return (0);
+						_putchar('\n');
 					}
 				}
 			}
