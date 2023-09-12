@@ -27,8 +27,8 @@ void times_table(void)
 			}
 			if (b < 9)
 			{
-				_putchart(',');
-				_putchart(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
