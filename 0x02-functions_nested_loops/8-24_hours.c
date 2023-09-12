@@ -22,18 +22,19 @@ void jack_bauer(void)
 			{
 				for (four = 0; four <= 9; four++)
 				{
-					if (one != 2 && two != 3 && three != 5 && four != 9)
+					_putchar(one + '0');
+					_putchar(two + '0');
+					_putchar(':');
+					_putchar(three + '0');
+					_putchar(four + '0');
+					_putchar('\n');
+
+					if (one == 2 && two == 3 && three == 5 && four == 9)
 					{
-						_putchar(one + '0');
-						_putchar(two + '0');
-						_putchar(':');
-						_putchar(three + '0');
-						_putchar(four + '0');
-						_putchar('\n');
+						return (0);
 					}
 				}
 			}
 		}
 	}
-	
 }
