@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 #include <ctype.h>
+#include <stdlib.h>
 
 /**
  *_abs - prints an output
