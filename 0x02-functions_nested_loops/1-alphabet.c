@@ -2,18 +2,12 @@
 #include "main.h"
 
 /**
- *main - prints an output
+ *print_alphabet - prints an output
  *
  *void: has nothing
  *
  *Return: 0 always
 */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
@@ -24,4 +18,5 @@ void print_alphabet(void)
 		_putchar(alpha);
 	}
 	_putchar('\n');
+	return (0);
 }
