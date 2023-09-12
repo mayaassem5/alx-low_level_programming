@@ -16,9 +16,9 @@ void jack_bauer(void)
 
 	for (one = 0; one <= 2; one++)
 	{
-		for (two = 0; two <= 3; two++)
+		for (two = 0; two <= 9; two++)
 		{
-			for (three = 0; three <= 5; three++)
+			for (three = 0; three <= 9; three++)
 			{
 				for (four = 0; four <= 9; four++)
 				{
@@ -30,6 +30,11 @@ void jack_bauer(void)
 					_putchar('\n');
 				}
 			}
+		}
+
+		if (one == 2 || two == 3 || three == 5 || four == 9)
+		{
+			break;
 		}
 	}
 }
