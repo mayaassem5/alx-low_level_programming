@@ -22,7 +22,7 @@ void jack_bauer(void)
 			{
 				for (four = 0; four <= 9; four++)
 				{
-					if (one == 2 && two == 4)
+					if (one >= 2 && two >= 4)
 					{
 						break;
 					}
