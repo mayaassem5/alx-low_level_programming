@@ -13,7 +13,9 @@
 
 int _abs(int a)
 {
-	printf(abs(a));
+	int b = abs(a);
+
+	_putchar(b);
 
 	return (0);
 }
