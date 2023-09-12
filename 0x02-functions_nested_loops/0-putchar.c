@@ -21,6 +21,5 @@ int main(void)
 		_putchar(str[loop]);
 	}
 
-	_putchar('\n');
 	return (0);
 }
