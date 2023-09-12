@@ -12,6 +12,7 @@
 
 int _abs(int a)
 {
-	abs(a);
+	int b;
+	b = abs(a);
 	return (0);
 }
