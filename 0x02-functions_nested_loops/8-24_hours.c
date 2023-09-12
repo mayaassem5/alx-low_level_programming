@@ -16,16 +16,17 @@ void jack_bauer(void)
 
 	for (one = 0; one <= 2; one++)
 	{
+		if (one == 2 && two == 3 && three == 5 && four == 9)
+		{
+			break;
+		}
+
 		for (two = 0; two <= 9; two++)
 		{
 			for (three = 0; three <= 5; three++)
 			{
 				for (four = 0; four <= 9; four++)
 				{
-					if (one == 2 && two == 3 && three == 5 && four == 9)
-					{
-						break;
-					}
 					_putchar(one + '0');
 					_putchar(two + '0');
 					_putchar(':');
