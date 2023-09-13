@@ -23,11 +23,11 @@ int main(void)
 		{
 			if (c != 20365011074)
 			{
-				printf("%d, ", c);
+				printf("%ld, ", c);
 			}
 			else
 			{
-				printf("%d", c);
+				printf("%ld", c);
 			}
 		}
 
