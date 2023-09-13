@@ -10,12 +10,13 @@
 */
 int main(void)
 {
-	int a, b, c, d;
+	long int a, b, c;
+	int d;
 
 	a = 1;
 	b = 2;
 
-	for (c = 0; c < 48; c++)
+	for (d = 0; d < 48; d++)
 	{
 		c = a + b;
 		if (c % 2 == 0)
