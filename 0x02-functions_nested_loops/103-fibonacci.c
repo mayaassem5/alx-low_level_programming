@@ -12,6 +12,7 @@ int main(void)
 {
 	long int a, b, c;
 	int d;
+	long int sum = 0;
 
 	a = 1;
 	b = 2;
@@ -19,21 +20,15 @@ int main(void)
 	for (d = 0; d < 48; d++)
 	{
 		c = a + b;
-		if (c % 2 == 0)
+		if (c % 2 == 0 && c < 4000000)
 		{
-			if (c != 20365011074)
-			{
-				printf("%ld, ", c);
-			}
-			else
-			{
-				printf("%ld", c);
-			}
+			sum += c;
 		}
 
 		a = b;
 		b = c;
 	}
+	printf("%ld", sum);
 	printf("\n");
 	return (0);
 }
