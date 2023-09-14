@@ -1,19 +1,20 @@
 #include <stdio.h>
 #include "main.h"
 #include <ctype.h>
+#include <stdlib.h>
+
 /**
- *_isupper - prints an output
+ *_isdigit - prints an output
  *
- *@c: has output
+ *@c: has value
  *
  *Return: 0 always
 */
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (isupper(c))
+	if (isdigit(c))
 	{
 		return (1);
 	}
-
 	return (0);
 }
