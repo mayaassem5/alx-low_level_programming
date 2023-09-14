@@ -4,13 +4,13 @@
 #include <stdlib.h>
 
 /**
- *fizzbuzz - prints an output
+ *main - prints an output
  *
  *void: has no value
  *
  *Return: 0 always
 */
-void fizzbuzz(void)
+int main(void)
 {
 	int i;
 
