@@ -14,7 +14,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar('-');
-		m = -n; // Use the unsigned int to avoid integer overflow issues
+		m = -n;
 	}
 	else
 	{
@@ -22,8 +22,7 @@ void print_number(int n)
 	}
 
 	if (m / 10 != 0)
-		print_number(m / 10); // Recursively print digits
+		print_number(m / 10);
 
-	_putchar((m % 10) + '0'); // Print the last digit as a character
+	_putchar((m % 10) + '0');
 }
-
