@@ -16,7 +16,7 @@ void print_numbers(void)
 
 	for (num = 0; num <= 9; num++)
 	{
-		_putchar(num + '0');
+		_putchar(num);
 	}
 	_putchar('\n');
 	return (0);
