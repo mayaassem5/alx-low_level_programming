@@ -18,33 +18,20 @@ void fizzbuzz(void)
 	{
 		if ((i % 3) == 0)
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
+			printf("Fizz");
 		}
 		else if ((i % 5) == 0)
 		{
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			printf("Buzz");
 		}
 		else if (((i % 3) == 0) && ((i % 5) == 0))
 		{
-			_putchar('F');
-			_putchar('i');
-			_putchar('z');
-			_putchar('z');
-			_putchar('B');
-			_putchar('u');
-			_putchar('z');
-			_putchar('z');
+			printf("FizzBuzz");
 		} else
 		{
-			_putchar(i + '0');
+			printf("%d", i);
 		}
-		_putchar(' ');
+		printf(" ");
 	}
-	_putchar('\n');
+	printf("\n");
 }
