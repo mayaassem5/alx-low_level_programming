@@ -6,13 +6,15 @@
 /**
  *swap_int - prints an output
  *
- *@int *a: has value
- *@int *b; has value
+ *@a: has value
+ *@b: has value
  *
  *Return: no always
 */
 void swap_int(int *a, int *b)
 {
-	*a=b;
-	*b=a;
+	int *a = &a;
+	int *b = &b;
+	*a = b;
+	*b = a;
 }
