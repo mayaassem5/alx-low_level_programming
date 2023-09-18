@@ -8,10 +8,12 @@
  */
 void puts2(char *str)
 {
-	long unsigned int i;
+	unsigned long int i;
 
-	for (i = 0; i <= strlen(str); i += 2)
+	for (i = 0; i <= strlen(str) - 1; i += 2)
 	{
 		_putchar(*(str + i));
 	}
+
+	_putchar('\n');
 }
