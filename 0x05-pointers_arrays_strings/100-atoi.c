@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 /**
  * _atoi - converts a string to an integer.
  * @s: input string.
@@ -10,4 +11,6 @@ int _atoi(char *s)
 {
 	int a;
 	a = atoi(s);
+
+	return (0);
 }
