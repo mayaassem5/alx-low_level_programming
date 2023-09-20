@@ -17,15 +17,10 @@ void reverse_array(int *a, int n)
 
 		for (i = j + 1; i >= 0; i--)
 		{
-			*(a + j) = _putchar(a[i] + '0');
+			*(a + j) = a[i];
 
-			if (i != 0)
-			{
-				_putchar(',');
-
-				_putchar(' ');
-			}
 		}
+
 		j++;
 	}
 }
