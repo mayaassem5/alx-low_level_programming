@@ -10,17 +10,23 @@
 
 void reverse_array(int *a, int n)
 {
-	int i;
+	int i, j = 0;
 
-	for (i = n - 1; i >= 0; i--)
+	while (j < n)
 	{
-		*a = _putchar(a[i] + '0');
 
-		if (i != 0)
+		for (i = n - 1; i >= 0; i--)
 		{
-			_putchar(',');
+			*(a + j) = _putchar(a[i] + '0');
 
-			_putchar(' ');
+			j++;
+
+			if (i != 0)
+			{
+				_putchar(',');
+
+				_putchar(' ');
+			}
 		}
 	}
 }
