@@ -9,7 +9,12 @@
 
 void reverse_array(int *a, int n)
 {
-	int i = sizeof(a) / sizeof(a[0]);
+	int i;
+
+	while (a[i] != '\0')
+	{
+		i++;
+	}
 
 	while (i > n)
 	{
