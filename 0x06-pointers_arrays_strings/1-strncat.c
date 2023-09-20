@@ -9,5 +9,18 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	strncat(dest, src, n);
+	int i =strlen(src) - 1;
+	int j;
+
+	while (j < n)
+	{
+		dest[i] = src[j];
+		if (src[j] == '\0')
+		{
+			break;
+		}
+		j++;
+		i++;
+	}
+	return (dest);
 }
