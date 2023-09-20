@@ -15,11 +15,9 @@ void reverse_array(int *a, int n)
 	while (j < n - 1)
 	{
 
-		for (i = j + 1; i > 0; i--)
+		for (i = j + 1; i >= 0; i--)
 		{
 			*(a + j) = _putchar(a[i] + '0');
-
-			j++;
 
 			if (i != 0)
 			{
@@ -28,5 +26,6 @@ void reverse_array(int *a, int n)
 				_putchar(' ');
 			}
 		}
+		j++;
 	}
 }
