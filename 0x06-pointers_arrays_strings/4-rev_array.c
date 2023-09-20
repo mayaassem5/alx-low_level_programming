@@ -15,7 +15,7 @@ void reverse_array(int *a, int n)
 	{
 		_putchar(a[i] + '0');
 
-		if (i != n + 1)
+		if (i != 0)
 		{
 			_putchar(',');
 			_putchar(' ');
