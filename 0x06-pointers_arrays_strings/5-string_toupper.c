@@ -6,15 +6,15 @@
  * Return: the pointer to dest.
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *)
 {
 	int i = 0;
 
-	while (s[i] != '\0')
+	while (*[i] != '\0')
 	{
-		if (s[i] <= 'z' && s[i] >= 'a')
+		if (*[i] <= 'z' && *[i] >= 'a')
 		{
-			s[i] -= 32;
+			*[i] -= 32;
 		}
 
 		i++;
