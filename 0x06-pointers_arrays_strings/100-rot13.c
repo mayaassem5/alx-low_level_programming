@@ -10,7 +10,7 @@ char *rot13(char *s)
 	char input[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char output[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	int i = 0;
+	int i = 0, j;
 
 	while (s[i] != '\0')
 	{
