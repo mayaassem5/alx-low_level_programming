@@ -14,9 +14,13 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 		{
 			return (s);
+			break;
+		}
+		else
+		{
+			return ('\0');
+			break;
 		}
 	}
-
-	return ('\0');
 
 }
