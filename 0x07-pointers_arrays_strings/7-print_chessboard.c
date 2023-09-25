@@ -6,8 +6,7 @@
  */
 void print_chessboard(char (*a)[8])
 {
-	*a = char board[8][8];
-	board[8][8] = {
+	*a = {
 		{'r', 'k', 'b', 'q', 'k', 'b', 'k', 'r'},
 		{'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
 		{' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
