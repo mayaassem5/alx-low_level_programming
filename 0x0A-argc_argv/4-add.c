@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	{
 		printf("%d\n", 0);
 	}
-	if (isdigit(argc))
+	if (isdigit(argv[1]) && isdigit(argv[2]))
 	{
 		printf("%d\n", (atoi(argv[1]) + atoi(argv[2])));
 	}
