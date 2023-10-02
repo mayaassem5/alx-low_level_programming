@@ -8,16 +8,13 @@
  */
 int main(int argc, char *argv[])
 {
-	int mult;
-
 	if (argc < 2)
 	{
 		printf("Error\n");
 	}
-
-	mult = argv[1] * argv[2];
-
-	printf("%d\n", mult);
-
+	else
+	{
+		printf("%d\n", (argv[1] * argv[2]));
+	}
 	return (0);
 }
