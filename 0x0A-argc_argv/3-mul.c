@@ -13,11 +13,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-		int mult = argv[1] * argv[2];
 
-		printf("%d\n", mult);
-	}
+	printf("%d\n", (argv[1] * argv[2]));
 	return (0);
 }
