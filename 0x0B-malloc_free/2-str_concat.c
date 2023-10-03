@@ -13,6 +13,8 @@ char *str_concat(char *s1, char *s2)
 	char *s3;
 	unsigned int i;
 
+	s3 = malloc(sizeof(char) * (j + i));
+
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 		s3[i] = s1[i];
@@ -23,8 +25,6 @@ char *str_concat(char *s1, char *s2)
 		s3[i] = s2[j];
 		i++;
 	}
-
-	s3 = malloc(sizeof(char) * (j + i));
 
 	return (s3);
 }
