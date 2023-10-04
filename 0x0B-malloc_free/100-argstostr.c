@@ -38,7 +38,6 @@ char *argstostr(int ac, char **av)
 		while (av[i][len] != '\0')
 		{
 			ptr[index++] = av[i][len++];
-			len++;
 		}
 		ptr[index++] = '\n';
 	}
