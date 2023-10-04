@@ -19,9 +19,7 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		while (av[i][len] != '\0')
-		{
 			len++;
-		}
 
 		total_len += len + 1;
 		len = 0;
@@ -48,7 +46,5 @@ char *argstostr(int ac, char **av)
 			ptr[ia] = av[i][j];
 	}
 	ptr[ia] = '\0';
-
-
 	return (ptr);
 }
