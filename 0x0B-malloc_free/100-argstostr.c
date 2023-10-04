@@ -14,9 +14,13 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 
 	char *ptr;
-	unsigned int i = 0;
+	int i = 0, len = 0;
 
-	ptr = malloc(sizeof(char) * ac);
+	while (av[len] != '\0')
+		len++;
+
+
+	ptr = malloc(sizeof(char) * len);
 
 	if (ptr == NULL)
 		return (NULL);
