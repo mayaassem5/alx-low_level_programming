@@ -10,13 +10,18 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *nextel;
+	size_t num;
 
 	nextel = (list_t *)malloc(sizeof(list_t));
 	if (nextel == NULL)
 		return (NULL);
 
 	nextel->str = strdup(str);
-	nextel->len = len;
+
+	for (num = 0; str[num]; num++)
+		;
+
+	nextel->len = num;
 	nextel->next = *head;
 	*head = nextel;
 
