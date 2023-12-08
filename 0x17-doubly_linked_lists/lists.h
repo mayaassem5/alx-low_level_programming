@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 /**
+<<<<<<< HEAD
  ** struct dlistint_s - doubly linked list
  ** @n: integer
  ** @prev: points to the previous node
@@ -13,6 +14,16 @@
  ** Description: doubly linked list node structure
  ** for Holberton project
  **/
+=======
+ * struct dlistint_s - doubly linked list
+ * @n: integer
+ * @prev: points to the previous node
+ * @next: points to the next node
+ *
+ * Description: doubly linked list node structure
+ * for Holberton project
+ */
+>>>>>>> b1a6241da3f04ed7330b01db655e93e20697d617
 typedef struct dlistint_s
 {
 	int n;
@@ -30,4 +41,8 @@ int sum_dlistint(dlistint_t *head);
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 
+<<<<<<< HEAD
 #endif
+=======
+#endi
+>>>>>>> b1a6241da3f04ed7330b01db655e93e20697d617
